@@ -13,6 +13,20 @@ code {
     white-space: nowrap;
 }
 
+@media only screen and (max-width: 1024px) {
+	code {
+	    font-family: 'Roboto Mono', monospace;
+	    background-color: rgba(127, 140, 141, 0.1);
+	    color: inherit;
+	    white-space: nowrap;
+	    white-space: nowrap;
+	    text-overflow: ellipsis;
+	    width: 300px;
+	    display: block;
+	    overflow: hidden;
+	}
+}
+
 .form-group {
     width: 100%;
 }
